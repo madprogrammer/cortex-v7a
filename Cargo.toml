@@ -1,0 +1,21 @@
+[package]
+name = "cortex-v7a"
+version = "0.0.1"
+authors = ["Andre Richter <andre.o.richter@gmail.com>", "Sergey Anufrienko <sergey.anoufrienko@gmail.com>"]
+description = "Low level access to Cortex-A processors"
+homepage = "https://github.com/madprogrammer/cortex-v7a"
+repository = "https://github.com/madprogrammer/cortex-v7a"
+readme = "README.md"
+keywords = ["arm", "armv7a", "cortex-a", "register"]
+categories = ["embedded", "hardware-support", "no-std"]
+license = "MIT/Apache-2.0"
+edition = "2018"
+exclude = [
+        ".gitignore",
+        ".rustfmt.toml",
+        ".vscode",
+        "Makefile"
+]
+
+[dependencies]
+register = "0.5.x"
